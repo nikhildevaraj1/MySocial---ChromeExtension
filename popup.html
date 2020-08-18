@@ -2,7 +2,7 @@
 <html>
   <head>
     <script src="https://use.fontawesome.com/30441ea7ad.js"></script>
-    <title>Educationist Social Media</title>
+    <title>MySocial</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
       rel="stylesheet"
@@ -106,10 +106,19 @@
       .versionog{
         font-family: 'Alata', sans-serif;
         font-size: 25px;
+        color: purple;
         
       }
       #tiktok{
         width: 33px;
+      }
+      .versionog1{
+        font-family: 'Alata', sans-serif;
+        font-size: 25px;
+        color: black;
+      }
+      #settings{
+        margin-left: 120px;
       }
     </style>
   </head>
@@ -118,43 +127,54 @@
     <div class="modal-header">
       <h1 class="logo">
         <div>
-           <img class="logo-icon" src="images/traversy-logo.png" /> 
-           <span class = "versionog">Educationist Social</span>
+           <img class="logo-icon" src="mainimages/traversy-logo.png" /> 
+           <span class = "versionog1">My</span><span class = "versionog">Social</span>
         <span class="version">  (1.0.0)</span>
+        <a href="index.html" target="_blank">
+        <i class="fa fa-cog" id = "settings" aria-hidden="true"></i>
+      </a>
         </div>
       </h1>
     </div>
     <div class="modal-content">
-      <p>Easily access Educationist Social Media</p>
+      <p>Easily access Social Media with one click!</p>
     </div>
     <div class="modal-icons">
       <div class="flex-container">
         <div class="flex">
-          <a href="https://educationisttutoring.org/" target="_blank">
-            <i class="fa fa-globe" style="color: darkblue "></i>
+          <a id = "facebooklinkicon" href="" target="_blank">
+            <i class="fa fa-facebook" style="color:purple "></i>
           </a>
         </div>
         <div class="flex">
-          <a href="https://www.instagram.com/educationisttutoring/" target="_blank">
-            <i class="fa fa-instagram" style="color:darkblue "></i>
+          <a id = "instagramlinkicon" href="" target="_blank">
+            <i class="fa fa-instagram" style="color:purple "></i>
           </a>
         </div>
         <div class="flex">
-          <a href="https://www.tiktok.com/@educationisttutoring?lang=en" target="_blank">
-            <svg id = 'tiktok' aria-hidden="true" focusable="false" data-prefix="fab" data-icon="tiktok" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-tiktok fa-w-14"><path fill="darkblue" d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" class=""></path></svg>       
+          <a id = "tiktoklinkicon" href="" target="_blank">
+            <svg id = 'tiktok' aria-hidden="true" focusable="false" data-prefix="fab" data-icon="tiktok" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-tiktok fa-w-14"><path fill="purple" d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" class=""></path></svg>       
           </a>
         </div>
+        
         <div class="flex">
-          <a href="https://www.facebook.com/Educationist-Tutoring-113478550431568" target="_blank">
-            <i class="fa fa-facebook" style="color:darkblue "></i>
+          <a id = "twitterlinkicon" href="" target="_blank">
+            <i class="fa fa-twitter" style="color: purple "></i>
           </a>
         </div>
+        
+        
         <div class="flex">
-          <a href="https://www.linkedin.com/company/educationist-tutoring" target="_blank">
-            <i class="fa fa-linkedin" style="color:darkblue "></i>
+          <a id = "linkedinlinkicon" href="" target="_blank">
+            <i class="fa fa-linkedin" style="color:purple "></i>
           </a>
         </div>
       </div>
     </div>
   </body>
+  <script src = "popup.js"></script>
 </html>
+
+
+
+
