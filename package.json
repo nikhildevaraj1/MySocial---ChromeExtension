@@ -1,0 +1,21 @@
+{
+  "name": "mysocial",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD\r # Educationist-Social---Chrome-Extension\r # EducationistSocial-ChromeExtension\r # EducationistSocial-ChromeExtension\r # MySocial---Chrome-Extension\r =======\r This is a chrome extension I am working on.",
+  "main": "popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhildevaraj1/EducationistSocial-ChromeExtension.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhildevaraj1/EducationistSocial-ChromeExtension/issues"
+  },
+  "homepage": "https://github.com/nikhildevaraj1/EducationistSocial-ChromeExtension#readme",
+  "dependencies": {
+  }
+}

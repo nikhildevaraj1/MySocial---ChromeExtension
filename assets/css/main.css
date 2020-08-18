@@ -75,7 +75,6 @@ input, select, textarea {
 /* Basic */
 
 
-
 .upload-btn-wrapper {
 	position: relative;
 	overflow: hidden;
@@ -83,7 +82,7 @@ input, select, textarea {
   }
   
   .btn {
-	border: .1px; solid lightgray;
+	border: .1px solid lightgray;
 	color: gray;
 	background-color: white;
 	padding: 0px 20px;

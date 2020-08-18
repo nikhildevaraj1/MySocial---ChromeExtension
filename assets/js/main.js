@@ -1,9 +1,5 @@
-/*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
+	
 let updatename = document.getElementById('updatename')
 let updatingname = document.getElementById('updatingname')
 
@@ -18,9 +14,13 @@ updatename.onclick = createnewname
 function createnewname()
 {
 var username = document.getElementById("updatenewnameform").value;
+
 chrome.storage.sync.set({username: username}, function() {
 	console.log('Value is set to ' + username);
 	document.getElementById('hellotext').innerHTML = "Hi " + username + "!";
+	swal("Updates Confirmed!", "Your name has been changed", "success");
+	
+
 
   });
 
@@ -37,6 +37,8 @@ chrome.storage.sync.set({username: username}, function() {
   
   function newname()
   {
+	swal("Updates Confirmed!", "Your links have been changed", "success");
+
   var facebook = document.getElementById("FacebookInput").value;
   chrome.storage.sync.set({facebook: facebook}, function() {
 	  console.log('Value is set to ' + facebook);
@@ -62,6 +64,10 @@ chrome.storage.sync.set({username: username}, function() {
 		}
 
 }
+
+
+
+
 (function($) {
 
 	var	$window = $(window),

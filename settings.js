@@ -11,6 +11,8 @@ submit.onclick = newname
 
 function newname()
 {
+  swal("Updates Confirmed!", "Your links have been changed", "success");
+
 var facebook = document.getElementById("FacebookInput").value;
 chrome.storage.sync.set({facebook: facebook}, function() {
     console.log('Value is set to ' + facebook);
@@ -32,9 +34,6 @@ chrome.storage.sync.set({linkedin: linkedin}, function() {
       console.log('Value is set to ' + linkedin);
         });
 
-alert(facebook);
-alert(instagram);
-alert(tiktok);
-alert(twitter);
-alert(linkedin)
-}
+
+      }
+

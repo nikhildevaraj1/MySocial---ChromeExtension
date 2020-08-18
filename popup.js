@@ -32,4 +32,3 @@ chrome.storage.sync.get(['facebook'], function(result) {
 
 
 
-
