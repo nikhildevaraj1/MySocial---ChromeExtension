@@ -10,5 +10,10 @@
       "default_icon": "icon.png",
       "default_popup": "popup.html"
     },
-    "permissions": ["activeTab", "storage"]
+    "permissions": ["activeTab", "storage"],
+    "background": {
+      "scripts": ["assets/js/background.js"],
+      "persistent": true
+  }
+   
   }

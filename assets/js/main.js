@@ -38,11 +38,18 @@ chrome.storage.sync.set({username: username}, function() {
   function newname()
   {
 	swal("Updates Confirmed!", "Your links have been changed", "success");
-
+	facebookvalue = document.getElementById("FacebookInput").value;
+	console.log("THIS WORKS");
+	console.log(facebookvalue);
+	if(facebookvalue !== ""){
+		console.log("THIS WORKS");
   var facebook = document.getElementById("FacebookInput").value;
   chrome.storage.sync.set({facebook: facebook}, function() {
 	  console.log('Value is set to ' + facebook);
+	  console.log("THIS WORKS");
 	});
+	}
+
   var instagram = document.getElementById("InstaInput").value;
   chrome.storage.sync.set({instagram: instagram}, function() {
 		console.log('Value is set to ' + instagram);
@@ -59,6 +66,24 @@ chrome.storage.sync.set({username: username}, function() {
   chrome.storage.sync.set({linkedin: linkedin}, function() {
 		console.log('Value is set to ' + linkedin);
 		  });
+
+	var whatsapp = document.getElementById("WhatsappInput").value;
+	chrome.storage.sync.set({whatsapp: whatsapp}, function() {
+		console.log('Value is set to ' + whatsapp);
+				  });
+			var reddit = document.getElementById("RedditInput").value;
+		chrome.storage.sync.set({reddit: reddit}, function() {
+		console.log('Value is set to ' + reddit);
+						  });
+var github = document.getElementById("GithubInput").value;
+		chrome.storage.sync.set({github: github}, function() {
+		console.log('Value is set to ' + github);
+						  });
+						  var mywebsite = document.getElementById("MyWebsiteInput").value;
+		chrome.storage.sync.set({mywebsite: mywebsite}, function() {
+		console.log('Value is set to ' + mywebsite);
+						  });
+  
   
   
 		}
