@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-# Educationist-Social---Chrome-Extension
-# EducationistSocial-ChromeExtension
-# EducationistSocial-ChromeExtension
-# MySocial---Chrome-Extension
+ #MySocial
 =======
-This is a chrome extension I am working on.
+This is a chrome extension that I have created:
 
-It is not published yet but I am planning to.
+Please go to my website here: https://mysocialextension.tech/
 
-Please contact me with any questions: nikhil.nalluraj@gmail.com
->>>>>>> e8c96663890be1b894aa63a5a66f6f3181ee3948
+And download the extension here: https://chrome.google.com/webstore/detail/mysocial/dbikngboikejfpdpdpajedoilgkckfaa
